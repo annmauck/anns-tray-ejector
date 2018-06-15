@@ -11,11 +11,12 @@ sudo apt install python-appindicator
 ```
 or by running the `prerequisite-installer.sh` file, included for your convenience.
 
-After you have installed python-appindicator, put the .py file (and the .png if you'd like, or use your own) wherever you'd like, and add it to your startup applications.
+After you have installed python-appindicator, put the .py file (and the .png if you'd like, or use your own) wherever you'd like, and add `python [path to the .py]` to your startup applications.
 
 ### Prerequisites
 
 [python-appindicator](https://packages.debian.org/sid/python-appindicator)
+
 **Be sure to follow the steps in Getting Started, the application will not run without its prerequisites!**
 
 ### Installing
