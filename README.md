@@ -5,11 +5,18 @@ A simple application that resides in the system tray and allows for ejecting one
 
 ## Getting Started
 
-Download the .py file (and the .png if you'd like, or use your own), put it wherever you'd like, and add it to your startup applications.
+This application uses python-appindicator, which can be installed either by running
+```
+sudo apt install python-appindicator
+```
+or by running the `prerequisite-installer.sh` file, included for your convenience.
+
+After you have installed python-appindicator, put the .py file (and the .png if you'd like, or use your own) wherever you'd like, and add it to your startup applications.
 
 ### Prerequisites
 
-Python
+[python-appindicator](https://packages.debian.org/sid/python-appindicator)
+**Be sure to follow the steps in Getting Started, the application will not run without its prerequisites!**
 
 ### Installing
 
