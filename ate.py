@@ -5,7 +5,7 @@ import appindicator #appindicators are what Mint calls system tray icons
 import gtk, sys, os
 from subprocess import call #needed for bash commands
 
-path = os.path.abspath(os.path.dirname(sys.argv[0]))
+path = os.path.abspath(os.path.dirname(sys.argv[0])) #Needed to resolve icon bug
 ai = appindicator.Indicator('tray_ejector', path + '/icon.png', appindicator.CATEGORY_APPLICATION_STATUS)
 ai.set_status(appindicator.STATUS_ACTIVE)
 m = gtk.Menu()
