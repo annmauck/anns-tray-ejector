@@ -11,7 +11,7 @@ sudo apt install python-appindicator
 ```
 or by running the `prerequisite-installer.sh` file, included for your convenience.
 
-After you have installed python-appindicator, put the .py file (and the .png if you'd like, or use your own) wherever you'd like, and add `python [path to the .py]` to your startup applications.
+After you have installed python-appindicator, put the .py file (and the .png if you'd like, or use your own) wherever you'd like, and add `[path to the .py]` to your startup applications.
 
 ### Prerequisites
 
@@ -24,7 +24,7 @@ After you have installed python-appindicator, put the .py file (and the .png if 
 This program is designed to be added to your startup applications. You can always launch it manually as well, by opening a terminal, navigating to its directory, and typing:
 
 ```
-python ate.py
+./ate.py
 ````
 
 ## Authors
