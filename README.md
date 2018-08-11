@@ -1,7 +1,6 @@
-# Ann's Tray Ejector
+# Ann's Tray Ejector <img src=https://github.com/annmauck/anns-tray-ejector/blob/master/icon.png width=3%>
 
 A simple application that resides in the system tray and allows for ejecting one's optical drive tray by clicking or right clicking on the icon
-
 
 ## Getting Started
 
