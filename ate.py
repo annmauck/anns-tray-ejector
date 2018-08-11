@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #Written by Ann Mauck
 #A simple application that resides in the system tray and allows for ejecting one's optical drive tray by clicking or right clicking on the icon
 
